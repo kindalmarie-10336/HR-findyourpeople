@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="res/hrs.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Hoosiers Rise Search</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <script src="res/hrs.js"></script>
+  </head>
+  <body style="font-family: Arial, Helvetica, sans-serif;">
+    <noscript>
+       <div class="noscript-bg" style="z-index: 1; position: absolute; height: 100%; width: 100%; text-align: center;" ></div>
+       <div class="noscript-message" style="z-index: 1; position: absolute; top: 200px; width: 100%; text-align: center" ><p>Please enable JavaScript to Use this Page.</p></div>                    
+    </noscript>
+    <div id="pg_box">
+      <br>
+      <br>
+      <table id="filters">
+        <tr>
+          <td colspan="4" id="header">
+             <img src="res/header.png" width="400px" />
+          </td>
+        </tr>
+        <tr>
+          <td class="select_label">Search</td>
+          <td colspan="3">
+            <input id="s_input" name="search" type="text" placeholder="Search Terms Here" />
+          </td>
+        </tr>
+        <tr>
+           <td class="select_label">City</td>
+           <td>
+            <select name="city" id="city">
+              <option value="" selected>-- Any --</option>
+<option value='All'>All</option><option value='Anderson'>Anderson</option><option value='Angola'>Angola</option><option value='Attica'>Attica</option><option value='Aurora'>Aurora</option><option value='Avon'>Avon</option><option value='Batesville'>Batesville</option><option value='Bedford'>Bedford</option><option value='Beech Grove'>Beech Grove</option><option value='Bloomington'>Bloomington</option><option value='Boonville'>Boonville</option><option value='Brazil'>Brazil</option><option value='Brookville'>Brookville</option><option value='Brownstown'>Brownstown</option><option value='Bunker Hill'>Bunker Hill</option><option value='Carmel'>Carmel</option><option value='Chesterfield'>Chesterfield</option><option value='Cicero'>Cicero</option><option value='Columbia City'>Columbia City</option><option value='Columbus'>Columbus</option><option value='Connersville'>Connersville</option><option value='Corydon'>Corydon</option><option value='Crown Point'>Crown Point</option><option value='Decatur'>Decatur</option><option value='Dugger'>Dugger</option><option value='East Chicago'>East Chicago</option><option value='Evansville'>Evansville</option><option value='Ferdinand'>Ferdinand</option><option value='Fishers'>Fishers</option><option value='Floyds Knobs'>Floyds Knobs</option><option value='Fort Wayne'>Fort Wayne</option><option value='Fortville'>Fortville</option><option value='Franklin'>Franklin</option><option value='French Lick'>French Lick</option><option value='Gary'>Gary</option><option value='Georgetown'>Georgetown</option><option value='Goshen'>Goshen</option><option value='Greencastle'>Greencastle</option><option value='Greenfield'>Greenfield</option><option value='Greenwood'>Greenwood</option><option value='Hammond'>Hammond</option><option value='Henryville'>Henryville</option><option value='Highland'>Highland</option><option value='Hobart'>Hobart</option><option value='Huntingburg'>Huntingburg</option><option value='Indianapolis'>Indianapolis</option><option value='Jasper'>Jasper</option><option value='Jeffersonville'>Jeffersonville</option><option value='Kendallville '>Kendallville </option><option value='Kokomo'>Kokomo</option><option value='Lafayette '>Lafayette </option><option value='Lagro'>Lagro</option><option value='Lake Station'>Lake Station</option><option value='Laporte'>Laporte</option><option value='Logansport'>Logansport</option><option value='Madison'>Madison</option><option value='Martinsville'>Martinsville</option><option value='Merrillville'>Merrillville</option><option value='Michigan City'>Michigan City</option><option value='Muncie'>Muncie</option><option value='Nashville'>Nashville</option><option value='New Albany'>New Albany</option><option value='New Castle'>New Castle</option><option value='Noblesville'>Noblesville</option><option value='Notre Dame'>Notre Dame</option><option value='Pendleton'>Pendleton</option><option value='Petersburg'>Petersburg</option><option value='Portland'>Portland</option><option value='Princeton'>Princeton</option><option value='Rensselear'>Rensselear</option><option value='Richmond'>Richmond</option><option value='Rushville'>Rushville</option><option value='Shelbyville'>Shelbyville</option><option value='Shoals'>Shoals</option><option value='South Bend'>South Bend</option><option value='Spencer'>Spencer</option><option value='Terre Haute'>Terre Haute</option><option value='Valparaiso'>Valparaiso</option><option value='Vincennes '>Vincennes </option><option value='Warsaw'>Warsaw</option><option value='Washington'>Washington</option><option value='West Lafayette '>West Lafayette </option><option value='Westfield'>Westfield</option><option value='Williamsport'>Williamsport</option><option value='Winchester'>Winchester</option><option value='Zionsville '>Zionsville</option>
+            </select>
+           </td>
+           <td class="select_label">County</td>
+           <td>
+            <select name="county" id="county">
+              <option value="" selected>-- Any --</option>
+<option value='Adams'>Adams</option><option value='Allen'>Allen</option><option value='Bartholomew'>Bartholomew</option><option value='Benton'>Benton</option><option value='Blackford'>Blackford</option><option value='Boone'>Boone</option><option value='Brown'>Brown</option><option value='Carroll'>Carroll</option><option value='Cass'>Cass</option><option value='Clark'>Clark</option><option value='Clay'>Clay</option><option value='Clinton'>Clinton</option><option value='Crawford'>Crawford</option><option value='Daviess'>Daviess</option><option value='DeKalb'>DeKalb</option><option value='Dearborn'>Dearborn</option><option value='Decatur'>Decatur</option><option value='Delaware'>Delaware</option><option value='Dubois'>Dubois</option><option value='Elkhart'>Elkhart</option><option value='Fayette'>Fayette</option><option value='Floyd'>Floyd</option><option value='Fountain'>Fountain</option><option value='Franklin'>Franklin</option><option value='Fulton'>Fulton</option><option value='Gibson'>Gibson</option><option value='Grant'>Grant</option><option value='Greene'>Greene</option><option value='Hamilton'>Hamilton</option><option value='Hancock'>Hancock</option><option value='Harrison'>Harrison</option><option value='Hendricks'>Hendricks</option><option value='Henry'>Henry</option><option value='Howard'>Howard</option><option value='Huntington'>Huntington</option><option value='Jackson'>Jackson</option><option value='Jasper'>Jasper</option><option value='Jay'>Jay</option><option value='Jefferson'>Jefferson</option><option value='Jennings'>Jennings</option><option value='Johnson'>Johnson</option><option value='Knox'>Knox</option><option value='Kosciusko'>Kosciusko</option><option value='LaGrange'>LaGrange</option><option value='LaPorte'>LaPorte</option><option value='Lake'>Lake</option><option value='Lawrence'>Lawrence</option><option value='Madison'>Madison</option><option value='Marion'>Marion</option><option value='Marshall'>Marshall</option><option value='Martin'>Martin</option><option value='Miami'>Miami</option><option value='Monroe'>Monroe</option><option value='Montgomery'>Montgomery</option><option value='Morgan'>Morgan</option><option value='Newton'>Newton</option><option value='Noble'>Noble</option><option value='Ohio'>Ohio</option><option value='Orange'>Orange</option><option value='Owen'>Owen</option><option value='Parke'>Parke</option><option value='Perry'>Perry</option><option value='Pike'>Pike</option><option value='Porter'>Porter</option><option value='Posey'>Posey</option><option value='Pulaski'>Pulaski</option><option value='Putnam'>Putnam</option><option value='Randolph'>Randolph</option><option value='Ripley'>Ripley</option><option value='Rush'>Rush</option><option value='Scott'>Scott</option><option value='Shelby'>Shelby</option><option value='Spencer'>Spencer</option><option value='St. Joseph'>St. Joseph</option><option value='Starke'>Starke</option><option value='Steuben'>Steuben</option><option value='Sullivan'>Sullivan</option><option value='Switzerland'>Switzerland</option><option value='Tippecanoe'>Tippecanoe</option><option value='Tipton'>Tipton</option><option value='Union'>Union</option><option value='Vanderburgh'>Vanderburgh</option><option value='Vermillion'>Vermillion</option><option value='Vigo'>Vigo</option><option value='Wabash'>Wabash</option><option value='Warren'>Warren</option><option value='Warrick'>Warrick</option><option value='Washington'>Washington</option><option value='Wayne'>Wayne</option><option value='Wells'>Wells</option><option value='White'>White</option><option value='Whitley'>Whitley</option>
+            </select>
+           </td>
+        </tr>
+        <tr>
+           <td class="select_label">Category</td>
+           <td>
+            <select name="type" id="type">
+             <option value="" selected>-- Any --</option>
+             <option value="protest" >Protest</option>
+             <option value="politics" >Politics</option>
+             <option value="forums & lecture" >Forums & Lecture</option>
+             <option value="trainings" >Trainings</option>
+             <option value="meetings" >Meetings</option>
+             <option value="pride / lgbt+" >Pride / LGBT+</option>
+             <option value="diversity / bipoc" >Diversity / BIPOC</option>
+             <option value="community / mutual aid" >Community / Mutual Aid</option>
+             <option value="art & culture" >Art & Culture</option>
+            </select>
+           </td>
+           <td class="select_label">Repeating</td>
+           <td>
+            <select name="repeating" id="repeating" >
+              <option value="" selected>-- Any --</option>
+              <option value="yes" >Yes</option>
+              <option value="no" >No</option>
+            </select>
+           </td>
+        </tr>
+        <tr>
+           <td class="select_label">Virtual</td>
+           <td>
+            <select name="virtual" id="virtual" >
+              <option value="" selected>-- Any --</option>
+              <option value="yes">Yes</option>
+              <option value="no" >No</option>
+            </select>
+           </td>
+           <td class="select_label">Date</td>
+           <td>
+             <input id="dt_input" type="date">
+           </td>
+        </tr>
+        <tr>
+           <td colspan="4" id="btn_cell"> 
+             <button id="clr_btn" onclick="clear_form()">Clear</button>       
+             <button id="srch_btn" onclick="getText()">Search</button>
+           </td>
+        </tr>
+        <tr>
+           <td colspan="4" id="hr_cell">        
+             <hr width="750px" style="margin-top:20px;" />
+           </td>
+        </tr>
+        <tr>
+           <td colspan="4"> 
+             <div id="results"></div>
+           </td>
+        </tr>
+      </table>
+     </div>
+   </body>
+</html>

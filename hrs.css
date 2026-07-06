@@ -1,0 +1,112 @@
+         @font-face {
+            font-family: 'calisr';
+            src: url('res/fonts/calistoga_r.ttf');
+         }
+         @font-face {
+            font-family: 'century';
+            src: url('res/fonts/century.ttf');
+         }
+         @font-face {
+            font-family: 'helvet';
+            src: url('res/fonts/helvetica_cond.otf');
+         }
+         @font-face {
+            font-family: 'schlbk';
+            src: url('res/fonts/schlbki.ttf');
+         }
+         a {text-decoration: none;
+         }
+         #pg_box {margin-top: 0px;
+                  margin-bottom: 20px;
+                  margin-left: 0px;
+                  margin-right: 0px;
+                  padding: 0px;
+                  width: 100%;
+                  height: auto;
+                  display: flex;
+                  justify-content: center;
+         }
+         .noscript-bg {background:#FCE9C0 url("") left no-repeat;
+                       background-position: 15px; 
+                       border-top:4px solid #DBAC48;
+                       border-bottom:4px solid #DBAC48;
+                       padding:15px 10px 0px 10px;
+                       opacity: 0.5;
+         }
+         .noscript-message {background:#FCE9C0 url("alerticonrlsm.png") left no-repeat;
+                            background-position: 15px; 
+                            border-top:4px solid #DBAC48;
+                            border-bottom:4px solid #DBAC48;
+                            padding:15px 10px 15px 10px;
+         }
+         #header {text-align: center; 
+         }
+         #filters {
+         }
+         #filters td {padding-top: 5px;
+                      padding-bottom: 5px;
+         }
+         #s_input {width:646px;
+                   padding:4px;
+                   background-color:#fbea7e;
+                   border-color:#fafd5f;
+                   font-family: "century";
+                   color: #505525;
+         }
+         #dt_input {width:265px;
+                    padding:4px;
+                    background-color:#fbea7e;
+                    border-color:#fafd5f;
+                    color: #505525;
+                    font-family: "century";
+         }
+         select {width: 276px;
+                 background-color: #fbea7e;
+                 border-color: #fafd5f;
+                 padding: 4px;
+                 margin-right: 10px;
+                 color: #505525;
+                 font-family: "century";
+         }
+         .select_label {color: #939A56;
+                        padding-right: 5px;
+                        text-align: right;
+                        font-family: "century";
+         } 
+         #clr_btn {height: 30px;
+                   width: 120px;
+                   background-color: #919B56;
+                   font-size: 18px;
+                   color: white; 
+                   border-color: #929b54;
+                   margin-top:26px;
+                   margin-right:6px;
+                   font-family: "century";
+
+         }
+         #srch_btn {height: 30px;
+                    width: 240px;
+                    background-color: #919B56;
+                    font-size: 18px;
+                    color: white; 
+                    border-color: #929b54;
+                    margin-top:26px;
+                    font-family: "century";
+         }
+         #btn_cell {text-align: center;
+         }
+         #hr_cell {text-align: center;
+         }
+         #results {padding-top: 5px;
+         }
+         #res_tab {width: 750px;
+                   font-family: "helvet";
+                   font_size: 10px;
+                   table-layout: fixed;
+         }
+         .res_img {width:230px;
+                   text-align: center;
+         }
+         .res_tab {word-wrap: break-word; /* or word-break: break-all; */
+                   font-family: "calisr";
+         }
