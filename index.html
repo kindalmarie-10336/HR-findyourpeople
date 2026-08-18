@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="res/hrs.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Hoosiers Rise Search</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <script src="res/hrs.js"></script>
+  </head>
+  <body style="font-family: Arial, Helvetica, sans-serif;">
+    <noscript>
+       <div class="noscript-bg" style="z-index: 1; position: absolute; height: 100%; width: 100%; text-align: center;" ></div>
+       <div class="noscript-message" style="z-index: 1; position: absolute; top: 200px; width: 100%; text-align: center" ><p>Please enable JavaScript to Use this Page.</p></div>                    
+    </noscript>
+    <div id="pg_box">
+      <table id="filters">
+        <tr>
+          <td colspan="4" id="header">
+            <a href="https://www.hoosiersrise.org" style="vertical-align:top;">
+               <img src="res/return.png" alt="return arrow" height="60px" />
+            </a>
+            <img src="res/header.png" width="400px" />
+            <img src="res/space.png" alt="return arrow" width="80px" />
+          </td>
+        </tr>
+        <tr>
+          <td class="select_label">Search</td>
+          <td colspan="3">
+            <input id="s_input" name="search" type="text" placeholder="Search Terms Here" />
+          </td>
+        </tr>
+        <tr>
+           <td class="select_label">Category</td>
+           <td>
+            <select name="type" id="type">
+              <option value="" selected>-- Any --</option>
+              <option value="politics / activist" >Politics / Activist</option>
+              <option value="immigration" >Immigration</option>
+              <option value="lgbtq+" >LGBTQ+</option>
+              <option value="housing / poverty" >Housing / Poverty</option>
+              <option value="environmental" >Environmental</option>
+              <option value="gun violence" >Gun Violence</option>
+              <option value="bipoc / diversity" >BIPOC / Diversity</option>
+              <option value="health" >Health</option>
+              <option value="pet & animal" >Pet & Animal</option>
+              <option value="disabilities / elderly" >Disabilities / Elderly</option>
+              <option value="mutual aid" >Mutual Aid</option>
+              <option value="palestine" >Palestine</option>
+              <option value="labor" >Labor</option>
+              <option value="rights" >Women's Rights</option>
+              <option value="education" >Education</option>
+            </select>
+           </td>
+           <td class="select_label">County</td>
+           <td>
+            <select name="county" id="county">
+              <option value="" selected>-- Any --</option>
+<option value='-- All --'>-- Statewide --</option><option value='Adams'>Adams</option><option value='Allen'>Allen</option><option value='Bartholomew'>Bartholomew</option><option value='Benton'>Benton</option><option value='Blackford'>Blackford</option><option value='Boone'>Boone</option><option value='Brown'>Brown</option><option value='Carroll'>Carroll</option><option value='Cass'>Cass</option><option value='Clark'>Clark</option><option value='Clay'>Clay</option><option value='Clinton'>Clinton</option><option value='Crawford'>Crawford</option><option value='Daviess'>Daviess</option><option value='DeKalb'>DeKalb</option><option value='Dearborn'>Dearborn</option><option value='Decatur'>Decatur</option><option value='Delaware'>Delaware</option><option value='Dubois'>Dubois</option><option value='Elkhart'>Elkhart</option><option value='Fayette'>Fayette</option><option value='Floyd'>Floyd</option><option value='Fountain'>Fountain</option><option value='Franklin'>Franklin</option><option value='Fulton'>Fulton</option><option value='Gibson'>Gibson</option><option value='Grant'>Grant</option><option value='Greene'>Greene</option><option value='Hamilton'>Hamilton</option><option value='Hancock'>Hancock</option><option value='Harrison'>Harrison</option><option value='Hendricks'>Hendricks</option><option value='Henry'>Henry</option><option value='Howard'>Howard</option><option value='Huntington'>Huntington</option><option value='Jackson'>Jackson</option><option value='Jasper'>Jasper</option><option value='Jay'>Jay</option><option value='Jefferson'>Jefferson</option><option value='Jennings'>Jennings</option><option value='Johnson'>Johnson</option><option value='Knox'>Knox</option><option value='Kosciusko'>Kosciusko</option><option value='LaGrange'>LaGrange</option><option value='LaPorte'>LaPorte</option><option value='Lake'>Lake</option><option value='Lawrence'>Lawrence</option><option value='Madison'>Madison</option><option value='Marion'>Marion</option><option value='Marshall'>Marshall</option><option value='Martin'>Martin</option><option value='Miami'>Miami</option><option value='Monroe'>Monroe</option><option value='Montgomery'>Montgomery</option><option value='Morgan'>Morgan</option><option value='Newton'>Newton</option><option value='Noble'>Noble</option><option value='Ohio'>Ohio</option><option value='Orange'>Orange</option><option value='Owen'>Owen</option><option value='Parke'>Parke</option><option value='Perry'>Perry</option><option value='Pike'>Pike</option><option value='Porter'>Porter</option><option value='Posey'>Posey</option><option value='Pulaski'>Pulaski</option><option value='Putnam'>Putnam</option><option value='Randolph'>Randolph</option><option value='Ripley'>Ripley</option><option value='Rush'>Rush</option><option value='Scott'>Scott</option><option value='Shelby'>Shelby</option><option value='Spencer'>Spencer</option><option value='St. Joseph'>St. Joseph</option><option value='Starke'>Starke</option><option value='Steuben'>Steuben</option><option value='Sullivan'>Sullivan</option><option value='Switzerland'>Switzerland</option><option value='Tippecanoe'>Tippecanoe</option><option value='Tipton'>Tipton</option><option value='Union'>Union</option><option value='Vanderburgh'>Vanderburgh</option><option value='Vermillion'>Vermillion</option><option value='Vigo'>Vigo</option><option value='Wabash'>Wabash</option><option value='Warren'>Warren</option><option value='Warrick'>Warrick</option><option value='Washington'>Washington</option><option value='Wayne'>Wayne</option><option value='Wells'>Wells</option><option value='White'>White</option><option value='Whitley'>Whitley</option>
+            </select>
+           </td>
+        </tr>
+        <tr>
+           <td colspan="4" id="btn_cell"> 
+             <button id="clr_btn" onclick="clear_form()">Clear</button>       
+             <button id="srch_btn" onclick="getText()">Search</button>
+           </td>
+        </tr>
+        <tr>
+           <td colspan="4" id="hr_cell">        
+             <hr width="750px" style="margin-top:20px;" />
+           </td>
+        </tr>
+        <tr>
+           <td colspan="4"> 
+             <div id="results"></div>
+           </td>
+        </tr>
+      </table>
+     </div>
+   </body>
+</html>
